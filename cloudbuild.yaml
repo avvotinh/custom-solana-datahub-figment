@@ -1,0 +1,4 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "gcr.io/solana-rpc-349013/solana-rpc-image", "."]
+images: ["gcr.io/solana-rpc-349013/solana-rpc-image"]
